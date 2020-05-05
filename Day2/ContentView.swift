@@ -14,7 +14,6 @@ struct ContentView: View {
         List{
             NavigationLink (destination: MoviesDetail(name: "Back to The Future", movieChar: ["Doc", "Marty"], movieImage: #imageLiteral(resourceName: "BTF"))) {
             MovieView(name: "Back to The Future", MainChar: ["Doc", "Marty"], movieImage: #imageLiteral(resourceName: "BTF"))
-                
                 }
             NavigationLink (destination: MoviesDetail(name: "Matrix", movieChar: ["Neo", "Trinity"], movieImage: #imageLiteral(resourceName: "Matrix"))) {
                 MovieView(name: "Matrix", MainChar: ["Neo", "Trinity"], movieImage: #imageLiteral(resourceName: "Matrix"))}
