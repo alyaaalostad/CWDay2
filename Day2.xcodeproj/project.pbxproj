@@ -15,6 +15,12 @@
 		019AC2F32460B26900F3F129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019AC2F12460B26900F3F129 /* LaunchScreen.storyboard */; };
 		019AC2FB2460BF1300F3F129 /* MoviesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC2FA2460BF1300F3F129 /* MoviesDetail.swift */; };
 		019AC2FD2461A09600F3F129 /* ClassWork4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC2FC2461A09600F3F129 /* ClassWork4.swift */; };
+		019AC2FF2461EBCB00F3F129 /* Assignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC2FE2461EBCB00F3F129 /* Assignment2.swift */; };
+		019AC3012461EC8000F3F129 /* athkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3002461EC8000F3F129 /* athkar.swift */; };
+		019AC3032461EEC700F3F129 /* DetailAssignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3022461EEC700F3F129 /* DetailAssignment2.swift */; };
+		019AC3052461F5A400F3F129 /* structAthkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3042461F5A400F3F129 /* structAthkar.swift */; };
+		019AC3092461F66000F3F129 /* structAssignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC3082461F66000F3F129 /* structAssignment2.swift */; };
+		019AC30B2461F89500F3F129 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019AC30A2461F89500F3F129 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		019AC2F42460B26900F3F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019AC2FA2460BF1300F3F129 /* MoviesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetail.swift; sourceTree = "<group>"; };
 		019AC2FC2461A09600F3F129 /* ClassWork4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWork4.swift; sourceTree = "<group>"; };
+		019AC2FE2461EBCB00F3F129 /* Assignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2.swift; sourceTree = "<group>"; };
+		019AC3002461EC8000F3F129 /* athkar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athkar.swift; sourceTree = "<group>"; };
+		019AC3022461EEC700F3F129 /* DetailAssignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAssignment2.swift; sourceTree = "<group>"; };
+		019AC3042461F5A400F3F129 /* structAthkar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structAthkar.swift; sourceTree = "<group>"; };
+		019AC3082461F66000F3F129 /* structAssignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structAssignment2.swift; sourceTree = "<group>"; };
+		019AC30A2461F89500F3F129 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				019AC2E62460B26700F3F129 /* AppDelegate.swift */,
+				019AC3082461F66000F3F129 /* structAssignment2.swift */,
 				019AC2E82460B26700F3F129 /* SceneDelegate.swift */,
+				019AC3042461F5A400F3F129 /* structAthkar.swift */,
+				019AC3022461EEC700F3F129 /* DetailAssignment2.swift */,
+				019AC3002461EC8000F3F129 /* athkar.swift */,
+				019AC2FE2461EBCB00F3F129 /* Assignment2.swift */,
 				019AC2FA2460BF1300F3F129 /* MoviesDetail.swift */,
 				019AC2FC2461A09600F3F129 /* ClassWork4.swift */,
+				019AC30A2461F89500F3F129 /* Calculator.swift */,
 				019AC2EA2460B26700F3F129 /* ContentView.swift */,
 				019AC2EC2460B26900F3F129 /* Assets.xcassets */,
 				019AC2F12460B26900F3F129 /* LaunchScreen.storyboard */,
@@ -152,11 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019AC3092461F66000F3F129 /* structAssignment2.swift in Sources */,
+				019AC3032461EEC700F3F129 /* DetailAssignment2.swift in Sources */,
 				019AC2FD2461A09600F3F129 /* ClassWork4.swift in Sources */,
+				019AC30B2461F89500F3F129 /* Calculator.swift in Sources */,
+				019AC3012461EC8000F3F129 /* athkar.swift in Sources */,
 				019AC2E72460B26700F3F129 /* AppDelegate.swift in Sources */,
 				019AC2E92460B26700F3F129 /* SceneDelegate.swift in Sources */,
+				019AC2FF2461EBCB00F3F129 /* Assignment2.swift in Sources */,
 				019AC2EB2460B26700F3F129 /* ContentView.swift in Sources */,
 				019AC2FB2460BF1300F3F129 /* MoviesDetail.swift in Sources */,
+				019AC3052461F5A400F3F129 /* structAthkar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
