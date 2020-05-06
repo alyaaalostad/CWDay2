@@ -31,7 +31,7 @@ struct Calculator: View {
                 
                 VStack (spacing: 10){
                     Text(Ac)
-                        .font(.system(size : 30))
+                        .font(.system(size : 50))
                         .bold()
                         .foregroundColor(.white)
                         .padding()
@@ -39,7 +39,7 @@ struct Calculator: View {
                         .padding(.horizontal)
                         .background(Color.gray)
                         .clipShape(Circle())
-                        
+//                        .frame(width:80)
                         .font(.system(size:50))
                         .onTapGesture(perform: {
                             self.Ac = "AC"
